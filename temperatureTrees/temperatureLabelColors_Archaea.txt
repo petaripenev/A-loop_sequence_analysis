@@ -1,0 +1,257 @@
+DATASET_STYLE
+SEPARATOR COMMA
+DATASET_LABEL,SILVA tree
+COLOR,#ffff00
+DATA
+Archaea,label,node,#000000,1,normal,#ffffff
+Aenigmarchaeota,label,node,#000000,1,normal,#ffffff
+Altiarchaeota,label,node,#000000,1,normal,#ffffff
+Asgardarchaeota,label,node,#000000,1,normal,#ffffff
+Crenarchaeota,label,node,#000000,1,normal,#ffffff
+Euryarchaeota,label,node,#000000,1,normal,#ffffff
+Hadarchaeota,label,node,#000000,1,normal,#ffffff
+Halobacterota,label,node,#000000,1,normal,#ffffff
+Iainarchaeota,label,node,#000000,1,normal,#ffffff
+Korarchaeota,label,node,#000000,1,normal,#ffffff
+Micrarchaeota,label,node,#000000,1,normal,#ffffff
+Nanoarchaeota,label,node,#000000,1,normal,#ffffff
+Nanohaloarchaeota,label,node,#000000,1,normal,#ffffff
+Thermoplasmatota,label,node,#000000,1,normal,#ffffff
+Altiarchaeia,label,node,#000000,1,normal,#ffffff
+Bathyarchaeia,label,node,#000000,1,normal,#ffffff
+Methanomethylicia,label,node,#000000,1,normal,#ffffff
+Nitrososphaeria,label,node,#000000,1,normal,#ffffff
+Thermoprotei,label,node,#000000,1,normal,#ffffff
+Methanobacteria,label,node,#000000,1,normal,#ffffff
+Methanococci,label,node,#000000,1,normal,#ffffff
+Methanopyri,label,node,#000000,1,normal,#ffffff
+Thermococci,label,node,#000000,1,normal,#ffffff
+Hadarchaeia,label,node,#000000,1,normal,#ffffff
+Archaeoglobi,label,node,#000000,1,normal,#ffffff
+Halobacteria,label,node,#000000,1,normal,#ffffff
+Methanocellia,label,node,#000000,1,normal,#ffffff
+Methanomicrobia,label,node,#000000,1,normal,#ffffff
+Methanosarcinia,label,node,#000000,1,normal,#ffffff
+Iainarchaeia,label,node,#000000,1,normal,#ffffff
+Korarchaeia,label,node,#000000,1,normal,#ffffff
+Micrarchaeia,label,node,#000000,1,normal,#ffffff
+Nanoarchaeia,label,node,#000000,1,normal,#ffffff
+Woesearchaeia,label,node,#000000,1,normal,#ffffff
+Nanosalinia,label,node,#000000,1,normal,#ffffff
+Thermoplasmata,label,node,#000000,1,normal,#ffffff
+Methanomethyliales,label,node,#000000,1,normal,#ffffff
+Caldiarchaeales,label,node,#000000,1,normal,#ffffff
+Nitrosocaldales,label,node,#000000,1,normal,#ffffff
+Nitrosopumilales,label,node,#000000,1,normal,#ffffff
+Nitrososphaerales,label,node,#000000,1,normal,#ffffff
+Nitrosotaleales,label,node,#000000,1,normal,#ffffff
+uncultured,label,node,#000000,1,normal,#ffffff
+Desulfurococcales,label,node,#000000,1,normal,#ffffff
+Fervidicoccales,label,node,#000000,1,normal,#ffffff
+Geoarchaeales,label,node,#000000,1,normal,#ffffff
+Sulfolobales,label,node,#000000,1,normal,#ffffff
+Thermoproteales,label,node,#000000,1,normal,#ffffff
+Methanobacteriales,label,node,#000000,1,normal,#ffffff
+Methanococcales,label,node,#000000,1,normal,#ffffff
+Methanopyrales,label,node,#000000,1,normal,#ffffff
+Methanofastidiosales,label,node,#000000,1,normal,#ffffff
+Thermococcales,label,node,#000000,1,normal,#ffffff
+Hadarchaeales,label,node,#000000,1,normal,#ffffff
+Archaeoglobales,label,node,#000000,1,normal,#ffffff
+Halobacterales,label,node,#000000,1,normal,#ffffff
+Methanocellales,label,node,#000000,1,normal,#ffffff
+Methanomicrobiales,label,node,#000000,1,normal,#ffffff
+Methanosarciniales,label,node,#000000,1,normal,#ffffff
+Iainarchaeales,label,node,#000000,1,normal,#ffffff
+Korarchaeales,label,node,#000000,1,normal,#ffffff
+Micrarchaeales,label,node,#000000,1,normal,#ffffff
+Nanoarchaeales,label,node,#000000,1,normal,#ffffff
+Parvarchaeales,label,node,#000000,1,normal,#ffffff
+Nanosalinales,label,node,#000000,1,normal,#ffffff
+Marine Group II,label,node,#000000,1,normal,#ffffff
+Methanomassiliicoccales,label,node,#000000,1,normal,#ffffff
+Thermoplasmatales,label,node,#000000,1,normal,#ffffff
+Methanomethyliaceae,label,node,#000000,1,normal,#ffffff
+Caldiarchaeaceae,label,node,#000000,1,normal,#ffffff
+Geothermarchaeaceae,label,node,#000000,1,normal,#ffffff
+Nitrosocaldaceae,label,node,#000000,1,normal,#ffffff
+Nitrosopumilaceae,label,node,#000000,1,normal,#ffffff
+Nitrososphaeraceae,label,node,#000000,1,normal,#ffffff
+Nitrosotaleaceae,label,node,#000000,1,normal,#ffffff
+Acidilobaceae,label,node,#000000,1,normal,#ffffff
+Desulfurococcaceae,label,node,#000000,1,normal,#ffffff
+Ignicoccaceae,label,node,#000000,1,normal,#ffffff
+Ignisphaeraceae,label,node,#000000,1,normal,#ffffff
+Pyrodictiaceae,label,node,#000000,1,normal,#ffffff
+Fervidicoccaceae,label,node,#000000,1,normal,#ffffff
+Sulfolobaceae,label,node,#000000,1,normal,#ffffff
+Thermofilaceae,label,node,#000000,1,normal,#ffffff
+Thermoproteaceae,label,node,#000000,1,normal,#ffffff
+Methanobacteriaceae,label,node,#000000,1,normal,#ffffff
+Methanothermaceae,label,node,#000000,1,normal,#ffffff
+Methanothermobacteriaceae,label,node,#000000,1,normal,#ffffff
+Methanocaldococcaceae,label,node,#000000,1,normal,#ffffff
+Methanococcaceae,label,node,#000000,1,normal,#ffffff
+Methanopyraceae,label,node,#000000,1,normal,#ffffff
+Methanofastidiosaceae,label,node,#000000,1,normal,#ffffff
+Thermococcaceae,label,node,#000000,1,normal,#ffffff
+Archaeoglobaceae,label,node,#000000,1,normal,#ffffff
+Haloadaptaceae,label,node,#000000,1,normal,#ffffff
+Halobacteriaceae,label,node,#000000,1,normal,#ffffff
+Halococcaceae,label,node,#000000,1,normal,#ffffff
+Haloferacaceae,label,node,#000000,1,normal,#ffffff
+Halomicrobiaceae,label,node,#000000,1,normal,#ffffff
+Methanocellaceae,label,node,#000000,1,normal,#ffffff
+Methanocorpusculaceae,label,node,#000000,1,normal,#ffffff
+Methanomicrobiaceae,label,node,#000000,1,normal,#ffffff
+Methanoregulaceae,label,node,#000000,1,normal,#ffffff
+Methanospirillaceae,label,node,#000000,1,normal,#ffffff
+uncultured,label,node,#000000,1,normal,#ffffff
+Methanosaetaceae,label,node,#000000,1,normal,#ffffff
+Methanosarcinaceae,label,node,#000000,1,normal,#ffffff
+Methermicoccaceae,label,node,#000000,1,normal,#ffffff
+Syntrophoarchaeaceae,label,node,#000000,1,normal,#ffffff
+Candidatus Iainarchaeum,label,node,#000000,1,normal,#ffffff
+Korarchaeaceae,label,node,#000000,1,normal,#ffffff
+Candidatus Micrarchaeum,label,node,#000000,1,normal,#ffffff
+Nanopusillaceae,label,node,#000000,1,normal,#ffffff
+Parvarchaeaceae,label,node,#000000,1,normal,#ffffff
+Nanosalinaceae,label,node,#000000,1,normal,#ffffff
+Methanomassiliicoccaceae,label,node,#000000,1,normal,#ffffff
+Methanomethylophilaceae,label,node,#000000,1,normal,#ffffff
+Aciduliprofundaceae,label,node,#000000,1,normal,#ffffff
+Ferroplasmaceae,label,node,#000000,1,normal,#ffffff
+Picrophilaceae,label,node,#000000,1,normal,#ffffff
+Thermoplasmataceae,label,node,#000000,1,normal,#ffffff
+Candidatus Methanomethylicus,label,node,#000000,1,normal,#ffffff
+Candidatus Caldiarchaeum,label,node,#000000,1,normal,#f8721c
+Candidatus Nitrosocaldus,label,node,#000000,1,normal,#fd8a26
+Candidatus Nitrosopelagicus,label,node,#000000,1,normal,#84ff51
+Candidatus Nitrosopumilus,label,node,#000000,1,normal,#96fe44
+Candidatus Nitrosotenuis,label,node,#000000,1,normal,#b9f635
+Nitrosarchaeum,label,node,#000000,1,normal,#96fe44
+uncultured,label,node,#000000,1,normal,#ffffff
+Candidatus Nitrosocosmicus,label,node,#000000,1,normal,#cbed34
+Candidatus Nitrososphaera,label,node,#000000,1,normal,#dbe236
+Candidatus Nitrosotalea,label,node,#000000,1,normal,#96fe44
+Acidilobus,label,node,#000000,1,normal,#e2430a
+Aeropyrum,label,node,#000000,1,normal,#d63506
+Caldisphaera,label,node,#000000,1,normal,#f66c19
+Desulfurococcus,label,node,#000000,1,normal,#c12302
+Staphylothermus,label,node,#000000,1,normal,#d63506
+Thermogladius,label,node,#000000,1,normal,#da3907
+Thermosphaera,label,node,#000000,1,normal,#d63506
+Ignicoccus,label,node,#000000,1,normal,#c52603
+Ignisphaera,label,node,#000000,1,normal,#b71d02
+Hyperthermus,label,node,#000000,1,normal,#c12302
+Pyrodictium,label,node,#000000,1,normal,#c12302
+Fervidicoccus,label,node,#000000,1,normal,#fb7e21
+Acidianus,label,node,#000000,1,normal,#f8721c
+Metallosphaera,label,node,#000000,1,normal,#fd8a26
+Stygiolobus,label,node,#000000,1,normal,#e4450a
+Sulfolobus,label,node,#000000,1,normal,#fd8a26
+Sulfurisphaera,label,node,#000000,1,normal,#e4450a
+Thermofilum,label,node,#000000,1,normal,#d63506
+Caldivirga,label,node,#000000,1,normal,#d63506
+Pyrobaculum,label,node,#000000,1,normal,#c52603
+Thermocladium,label,node,#000000,1,normal,#ef5811
+Thermoproteus,label,node,#000000,1,normal,#d63506
+Vulcanisaeta,label,node,#000000,1,normal,#d63506
+Methanobacterium,label,node,#000000,1,normal,#bef434
+Methanobrevibacter,label,node,#000000,1,normal,#acfb38
+Methanosphaera,label,node,#000000,1,normal,#cdec34
+Methanothermus,label,node,#000000,1,normal,#dc3b07
+Methanothermobacter,label,node,#000000,1,normal,#fdae35
+Methanocaldococcus,label,node,#000000,1,normal,#d63506
+Methanococcus,label,node,#000000,1,normal,#cbed34
+Methanothermococcus,label,node,#000000,1,normal,#fe962b
+Methanotorris,label,node,#000000,1,normal,#f8721c
+Methanopyrus,label,node,#000000,1,normal,#a41301
+Candidatus Methanofastidiosum,label,node,#000000,1,normal,#ffffff
+Palaeococcus,label,node,#000000,1,normal,#e4450a
+Pyrococcus,label,node,#000000,1,normal,#ac1701
+Thermococcus,label,node,#000000,1,normal,#ea4e0d
+Archaeoglobus,label,node,#000000,1,normal,#f8721c
+Ferroglobus,label,node,#000000,1,normal,#d63506
+Geoglobus,label,node,#000000,1,normal,#e2430a
+Haladaptatus,label,node,#000000,1,normal,#d4e735
+Halanaeroarchaeum,label,node,#000000,1,normal,#ffffff
+Halarchaeum,label,node,#000000,1,normal,#dbe236
+Halobacterium,label,node,#000000,1,normal,#c6f034
+Halodesulfurarchaeum,label,node,#000000,1,normal,#ffffff
+Halalkalicoccus,label,node,#000000,1,normal,#d4e735
+Halococcus,label,node,#000000,1,normal,#cbed34
+Haloarchaeobius,label,node,#000000,1,normal,#dfdf37
+Halobaculum,label,node,#000000,1,normal,#d4e735
+Halobellus,label,node,#000000,1,normal,#c8ef34
+Halobiforma,label,node,#000000,1,normal,#d0ea34
+Haloferax,label,node,#000000,1,normal,#acfb38
+Halogeometricum,label,node,#000000,1,normal,#acfb38
+Halogranum,label,node,#000000,1,normal,#c8ef34
+Halohasta,label,node,#000000,1,normal,#acfb38
+Halolamina,label,node,#000000,1,normal,#d0ea34
+Halonotius,label,node,#000000,1,normal,#e5d938
+Halopelagius,label,node,#000000,1,normal,#c8ef34
+Halopenitus,label,node,#000000,1,normal,#c8ef34
+Halopiger,label,node,#000000,1,normal,#c8ef34
+Haloplanus,label,node,#000000,1,normal,#c8ef34
+Haloquadratum,label,node,#000000,1,normal,#e5d938
+Halorubrum,label,node,#000000,1,normal,#c6f034
+Halostagnicola,label,node,#000000,1,normal,#acfb38
+Haloterrigena,label,node,#000000,1,normal,#d9e436
+Halovivax,label,node,#000000,1,normal,#c1f334
+J07HB67,label,node,#000000,1,normal,#ffffff
+J07HR59,label,node,#000000,1,normal,#ffffff
+Natrialba,label,node,#000000,1,normal,#d0ea34
+Natrinema,label,node,#000000,1,normal,#d4e735
+Natronobacterium,label,node,#000000,1,normal,#c8ef34
+Natronococcus,label,node,#000000,1,normal,#cbed34
+Natronolimnobius,label,node,#000000,1,normal,#c8ef34
+Natronorubrum,label,node,#000000,1,normal,#c8ef34
+Salinarchaeum,label,node,#000000,1,normal,#c8ef34
+Salinigranum,label,node,#000000,1,normal,#c8ef34
+Candidatus Halobonum,label,node,#000000,1,normal,#ffffff
+Halapricum,label,node,#000000,1,normal,#c8ef34
+Haloarcula,label,node,#000000,1,normal,#c8ef34
+Halomicrobium,label,node,#000000,1,normal,#d0ea34
+Halorhabdus,label,node,#000000,1,normal,#e5d938
+Halorientalis,label,node,#000000,1,normal,#c8ef34
+Halosimplex,label,node,#000000,1,normal,#dbe236
+J07HX64,label,node,#000000,1,normal,#ffffff
+Natronomonas,label,node,#000000,1,normal,#d0ea34
+Methanocella,label,node,#000000,1,normal,#c6f034
+Rice Cluster I,label,node,#000000,1,normal,#ffffff
+Methanocorpusculum,label,node,#000000,1,normal,#c1f334
+Methanoculleus,label,node,#000000,1,normal,#a1fd3d
+Methanogenium,label,node,#000000,1,normal,#55fa76
+Methanolacinia,label,node,#000000,1,normal,#d4e735
+Methanoplanus,label,node,#000000,1,normal,#b4f836
+Methanofollis,label,node,#000000,1,normal,#c8ef34
+Methanolinea,label,node,#000000,1,normal,#c8ef34
+Methanoregula,label,node,#000000,1,normal,#b1f936
+Methanosphaerula,label,node,#000000,1,normal,#a7fc3a
+Methanospirillum,label,node,#000000,1,normal,#96fe44
+Methanosaeta,label,node,#000000,1,normal,#acfb38
+Candidatus Methanoperedens,label,node,#000000,1,normal,#ffffff
+Methanococcoides,label,node,#000000,1,normal,#8bff4b
+Methanohalobium,label,node,#000000,1,normal,#d4e735
+Methanohalophilus,label,node,#000000,1,normal,#affa37
+Methanolobus,label,node,#000000,1,normal,#69fd66
+Methanomethylovorans,label,node,#000000,1,normal,#c3f134
+Methanosalsum,label,node,#000000,1,normal,#ffffff
+Methanosarcina,label,node,#000000,1,normal,#96fe44
+Methermicoccus,label,node,#000000,1,normal,#fd8a26
+Candidatus Syntrophoarchaeum,label,node,#000000,1,normal,#ffffff
+Candidatus Korarchaeum,label,node,#000000,1,normal,#ffffff
+Candidatus Nanopusillus,label,node,#000000,1,normal,#ffffff
+Candidatus Parvarchaeum,label,node,#000000,1,normal,#ffffff
+Candidatus Haloredivivus,label,node,#000000,1,normal,#ffffff
+Methanomassiliicoccus,label,node,#000000,1,normal,#c8ef34
+Candidatus Methanomethylophilus,label,node,#000000,1,normal,#ffffff
+Candidatus Methanoplasma,label,node,#000000,1,normal,#ffffff
+Aciduliprofundum,label,node,#000000,1,normal,#f8721c
+Acidiplasma,label,node,#000000,1,normal,#faba39
+Ferroplasma,label,node,#000000,1,normal,#c1f334
+Picrophilus,label,node,#000000,1,normal,#fea130
+Cuniculiplasma,label,node,#000000,1,normal,#d0ea34
+Thermoplasma,label,node,#000000,1,normal,#fea732

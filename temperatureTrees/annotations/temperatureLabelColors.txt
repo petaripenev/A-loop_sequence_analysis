@@ -1,0 +1,72 @@
+DATASET_STYLE
+SEPARATOR COMMA
+DATASET_LABEL,SILVA tree
+COLOR,#ffff00
+DATA
+Crenarchaeota,label,node,#000000,1,normal,#ffffff
+Bathyarchaeia,label,node,#000000,1,normal,#ffffff
+Methanomethylicia,label,node,#000000,1,normal,#ffffff
+Nitrososphaeria,label,node,#000000,1,normal,#ffffff
+Thermoprotei,label,node,#000000,1,normal,#ffffff
+Methanomethyliales,label,node,#000000,1,normal,#ffffff
+Caldiarchaeales,label,node,#000000,1,normal,#ffffff
+Nitrosocaldales,label,node,#000000,1,normal,#ffffff
+Nitrosopumilales,label,node,#000000,1,normal,#ffffff
+Nitrososphaerales,label,node,#000000,1,normal,#ffffff
+Nitrosotaleales,label,node,#000000,1,normal,#ffffff
+uncultured,label,node,#000000,1,normal,#ffffff
+Desulfurococcales,label,node,#000000,1,normal,#ffffff
+Fervidicoccales,label,node,#000000,1,normal,#ffffff
+Geoarchaeales,label,node,#000000,1,normal,#ffffff
+Sulfolobales,label,node,#000000,1,normal,#ffffff
+Thermoproteales,label,node,#000000,1,normal,#ffffff
+Methanomethyliaceae,label,node,#000000,1,normal,#ffffff
+Caldiarchaeaceae,label,node,#000000,1,normal,#ffffff
+Geothermarchaeaceae,label,node,#000000,1,normal,#ffffff
+Nitrosocaldaceae,label,node,#000000,1,normal,#ffffff
+Nitrosopumilaceae,label,node,#000000,1,normal,#ffffff
+Nitrososphaeraceae,label,node,#000000,1,normal,#ffffff
+Nitrosotaleaceae,label,node,#000000,1,normal,#ffffff
+Acidilobaceae,label,node,#000000,1,normal,#ffffff
+Desulfurococcaceae,label,node,#000000,1,normal,#ffffff
+Ignicoccaceae,label,node,#000000,1,normal,#ffffff
+Ignisphaeraceae,label,node,#000000,1,normal,#ffffff
+Pyrodictiaceae,label,node,#000000,1,normal,#ffffff
+Fervidicoccaceae,label,node,#000000,1,normal,#ffffff
+Sulfolobaceae,label,node,#000000,1,normal,#ffffff
+Thermofilaceae,label,node,#000000,1,normal,#ffffff
+Thermoproteaceae,label,node,#000000,1,normal,#ffffff
+Candidatus Methanomethylicus,label,node,#000000,1,normal,#ffffff
+Candidatus Caldiarchaeum,label,node,#000000,1,normal,#f8721c
+Candidatus Nitrosocaldus,label,node,#000000,1,normal,#fd8a26
+Candidatus Nitrosopelagicus,label,node,#000000,1,normal,#84ff51
+Candidatus Nitrosopumilus,label,node,#000000,1,normal,#96fe44
+Candidatus Nitrosotenuis,label,node,#000000,1,normal,#b9f635
+Nitrosarchaeum,label,node,#000000,1,normal,#96fe44
+uncultured,label,node,#000000,1,normal,#ffffff
+Candidatus Nitrosocosmicus,label,node,#000000,1,normal,#cbed34
+Candidatus Nitrososphaera,label,node,#000000,1,normal,#dbe236
+Candidatus Nitrosotalea,label,node,#000000,1,normal,#96fe44
+Acidilobus,label,node,#000000,1,normal,#e2430a
+Aeropyrum,label,node,#000000,1,normal,#d63506
+Caldisphaera,label,node,#000000,1,normal,#f66c19
+Desulfurococcus,label,node,#000000,1,normal,#c12302
+Staphylothermus,label,node,#000000,1,normal,#d63506
+Thermogladius,label,node,#000000,1,normal,#da3907
+Thermosphaera,label,node,#000000,1,normal,#d63506
+Ignicoccus,label,node,#000000,1,normal,#c52603
+Ignisphaera,label,node,#000000,1,normal,#b71d02
+Hyperthermus,label,node,#000000,1,normal,#c12302
+Pyrodictium,label,node,#000000,1,normal,#c12302
+Fervidicoccus,label,node,#000000,1,normal,#fb7e21
+Acidianus,label,node,#000000,1,normal,#f8721c
+Metallosphaera,label,node,#000000,1,normal,#fd8a26
+Stygiolobus,label,node,#000000,1,normal,#e4450a
+Sulfolobus,label,node,#000000,1,normal,#fd8a26
+Sulfurisphaera,label,node,#000000,1,normal,#e4450a
+Thermofilum,label,node,#000000,1,normal,#d63506
+Caldivirga,label,node,#000000,1,normal,#d63506
+Pyrobaculum,label,node,#000000,1,normal,#c52603
+Thermocladium,label,node,#000000,1,normal,#ef5811
+Thermoproteus,label,node,#000000,1,normal,#d63506
+Vulcanisaeta,label,node,#000000,1,normal,#d63506
