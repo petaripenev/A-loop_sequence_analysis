@@ -18,5 +18,8 @@ build/
 alns/Sereb+SILVA_AllArch.fasta
 alns/taxmap_slv_lsu_parc_138.1.txt
 alns/taxmap_slv_lsu_ref_138.1.txt
+alns/SILVA_138.1_LSURef_NR99_tax_silva_full_align_trunc.fasta.gz
+alns/SILVA_138.1_LSURef_NR99_tax_silva_full_align_trunc.fasta
 
 AI/
+Paper/
