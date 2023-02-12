@@ -1,0 +1,4 @@
+primaryAccession	start	stop	path	organism_name	taxid
+AAAA02037088	378	3887	Eukaryota;Amorphea;Obazoa;Opisthokonta;Nucletmycea;Fungi;Dikarya;Ascomycota;Pezizomycotina;Sordariomycetes;Hypocreales;	Oryza sativa Indica Group (long-grained rice)	29156
+AAAL02000003	175283	178152	Bacteria;Proteobacteria;Gammaproteobacteria;Xanthomonadales;Xanthomonadaceae;Xylella;	Xylella fastidiosa Dixon	1711
+AACY020109022	1	2388	Archaea;Thermoplasmatota;Thermoplasmata;Marine Group II;	marine metagenome	26088
