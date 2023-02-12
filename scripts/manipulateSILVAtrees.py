@@ -7,7 +7,7 @@ from Bio import AlignIO
 import matplotlib.cm as cm
 from matplotlib.colors import Normalize, rgb2hex
 
-from analyzeStockholm import organizeBPsBYindex
+from scripts.analyzeStockholm import organizeBPsBYindex
 
 def create_and_parse_argument_options(argument_list):
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawTextHelpFormatter)
@@ -25,7 +25,7 @@ def map_names_from_taxmap(mapFile):
     nameMapper = dict()
     with open(mapFile) as mapFile:                                                                                          
         reader = csv.DictReader(mapFile, delimiter='\t')
-        next(reader)
+        #next(reader)
         for entry in reader:
             if entry['taxid'] not in nameMapper.keys():
                 nameMapper[entry['taxid']] = list()
@@ -39,6 +39,33 @@ def read_taxonomy_map(treeFile):
         for entry in reader:
             taxonomyMapper[entry[0]] = entry[1]
     return taxonomyMapper
+
+def connect_accessions_with_nucl(tree, align, nuclOne, nuclTwo, nameMapper, taxonomyMapper):
+    accessionToNucl = dict()
+    for node in tree.traverse("postorder"):
+        if node.name in nameMapper.keys():
+            accessionsFromMap = [x[1] for x in nameMapper[node.name]]
+            accessionsFromAln = [x.name.split('.')[0] for x in align]
+            for accession in list(set(accessionsFromMap).intersection(accessionsFromAln)):
+                matchingIndexes = [i for i, item in enumerate(accessionsFromAln) if item == accession]
+                for index in matchingIndexes:
+                    if accession not in accessionToNucl.keys():
+                        accessionToNucl[accession] = list()
+                    node.add_features(nuclOfInterest=list())
+                    node.add_features(sequenceNames=list())
+                    #Be careful with this line, it is a bit of a hack to get the nucleotide sequence from the alignment
+                    #it won't work for proper ranges of sequences, but it will work for the current case
+                    accessionToNucl[accession].append(str(align[index].seq[nuclOne:nuclTwo]))
+                    node.nuclOfInterest.append(str(align[index].seq[nuclOne:nuclTwo]))
+                    node.sequenceNames.append(align[index].name)
+            node.add_features(silvaID=node.name)
+            #We want to use the name from .map file, not the ID from .tre file
+            node.name = taxonomyMapper[node.name]
+        elif node.name in taxonomyMapper.keys():
+            node.name = taxonomyMapper[node.name]
+        else:
+            node.delete()
+    return accessionToNucl
 
 def main(commandline_args):
     comm_args = create_and_parse_argument_options(commandline_args)
@@ -122,36 +149,6 @@ def main(commandline_args):
             f.write(f'{node.name.replace("Candidatus ", "Cand. ")},{shape},{size},#000000,1,1\r\n')
 
     truncatedTree.write(format=1, outfile=f'./temperatureTrees/bridge_truncatedTree_{comm_args.taxonomyName}.nwk')
-
-def connect_accessions_with_nucl(tree, align, nuclOne, nuclTwo, nameMapper, taxonomyMapper):
-    accessionToNucl = dict()
-    for node in tree.traverse("postorder"):
-        if node.name in nameMapper.keys():
-            accessionsFromMap = [x[1] for x in nameMapper[node.name]]
-            accessionsFromAln = [x.name.split('.')[0] for x in align]
-            for accession in list(set(accessionsFromMap).intersection(accessionsFromAln)):
-                matchingIndexes = [i for i, item in enumerate(accessionsFromAln) if item == accession]
-                for index in matchingIndexes:
-                    if accession not in accessionToNucl.keys():
-                        accessionToNucl[accession] = list()
-                    node.add_features(nuclOfInterest=list())
-                    node.add_features(sequenceNames=list())
-                    #Be careful with this line, it is a bit of a hack to get the nucleotide sequence from the alignment
-                    #it won't work for proper ranges of sequences, but it will work for the current case
-                    accessionToNucl[accession].append(str(align[index].seq[nuclOne:nuclTwo]))
-                    node.nuclOfInterest.append(str(align[index].seq[nuclOne:nuclTwo]))
-                    node.sequenceNames.append(align[index].name)
-            node.add_features(silvaID=node.name)
-            #We want to use the name from .map file, not the ID from .tre file
-            node.name = taxonomyMapper[node.name]
-        elif node.name in taxonomyMapper.keys():
-            node.name = taxonomyMapper[node.name]
-        else:
-            node.delete()
-    return accessionToNucl
-
-
-
 
 
 if __name__ == "__main__":
