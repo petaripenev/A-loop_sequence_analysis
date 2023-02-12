@@ -1,6 +1,6 @@
 genus_and_species,taxonomy_id,strain,superkingdom,phylum,class,order,family,genus,assembly_or_accession,Genome_GC,Genome_size,16S_accssion,16S_GC,Tmin,Topt_ave,Topt_low,Topt_high,Tmax,Tmax_Tmin
 Methanopyrus kandleri,2320,116,Archaea,Euryarchaeota,Methanopyri,Methanopyrales,Methanopyraceae,Methanopyrus,,,,AB301476,67.7,85.0,100.0,,,122.0,37.0
-"""Geogemma barossii""",1927912,121,Archaea,Crenarchaeota,Thermoprotei,Desulfurococcales,Pyrodictiaceae,Geogemma,,,,,,85.0,106.0,,,121.0,36.0
+Geogemma barossii,1927912,121,Archaea,Crenarchaeota,Thermoprotei,Desulfurococcales,Pyrodictiaceae,Geogemma,,,,,,85.0,106.0,,,121.0,36.0
 Pyrolobus fumarii,54252,1A,Archaea,Crenarchaeota,Thermoprotei,Desulfurococcales,Pyrodictiaceae,Pyrolobus,GCA_000223395.1,54.9,1.8,X99555,68.4,90.0,106.0,,,113.0,23.0
 Pyrococcus kukulkanii,1609559,NCB100,Archaea,Euryarchaeota,Thermococci,Thermococcales,Thermococcaceae,Pyrococcus,GCA_001577775.1,44.6,2.0,CP010835,66.5,70.0,105.0,,,112.0,42.0
 Methanopyrus kandleri,2320,AV19,Archaea,Euryarchaeota,Methanopyri,Methanopyrales,Methanopyraceae,Methanopyrus,GCA_000007185.1,61.2,1.7,NR_074539,68.1,84.0,98.0,,,110.0,38.0
@@ -156,8 +156,7 @@ Caldimicrobium rimae,444091,DS,Bacteria,Thermodesulfobacteria,Thermodesulfobacte
 Thermocladium modestius,62609,1C-125,Archaea,Crenarchaeota,Thermoprotei,Thermoproteales,Thermoproteaceae,Thermocladium,,52.0,,AB005296,63.9,45.0,75.0,,,82.0,37.0
 Caldicellulosiruptor kronotskyensis,413889,2002,Bacteria,Firmicutes,Clostridia,Thermoanaerobacterales,Thermoanaerobacterales Family III. Incertae Sedis,Caldicellulosiruptor,GCA_000166775.1,35.1,2.8,EF100909,58.3,45.0,70.0,,,82.0,37.0
 Thermodesulfobacterium commune,1741,YSRA-1 ,Bacteria,Thermodesulfobacteria,Thermodesulfobacteria,Thermodesulfobacteriales,Thermodesulfobacteriaceae,Thermodesulfobacterium,GCA_000734015.1,37.0,1.8,L10662,52.7,45.0,70.0,,,82.0,37.0
-Hydrogenobacter hydrogenophilus,35835," INMI
-Z-829",Bacteria,Aquificae,Aquificae,Aquificales,Aquificaceae,Hydrogenobacter,,43.0,,Z30242,60.1,50.0,75.0,74.0,76.0,82.0,32.0
+Hydrogenobacter hydrogenophilus,35835, INMIZ-829,Bacteria,Aquificae,Aquificae,Aquificales,Aquificaceae,Hydrogenobacter,,43.0,,Z30242,60.1,50.0,75.0,74.0,76.0,82.0,32.0
 Calditerricola yamamurae,448141,YMO722,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Calditerricola,,64.0,,AB308475,62.5,56.0,72.0,,,81.0,25.0
 Thermovorax subterraneus,496831,70B ,Bacteria,Firmicutes,Clostridia,Thermoanaerobacterales,Thermoanaerobacterales Family III. Incertae Sedis,Thermovorax,,44.2,,EU370564,60.7,50.0,71.0,,,81.0,31.0
 Dictyoglomus thermophilum,14,H‐6‐12,Bacteria,Dictyoglomi,Dictyoglomia,Dictyoglomales,Dictyoglomaceae,Dictyoglomus,GCA_000020965.1,33.7,2.0,X69194,58.9,50.0,78.0,,,80.0,30.0
@@ -209,7 +208,7 @@ Thermaerobacter composti,554949,NI80,Bacteria,Firmicutes,Clostridia,Clostridiale
 Fervidobacterium nodosum,2424,Rt17‐B,Bacteria,Thermotogae,Thermotogae,Thermotogales,Fervidobacteriaceae,Fervidobacterium,GCA_000017545.1,35.0,1.9,M59177,58.7,41.0,70.0,,,79.0,38.0
 Thermus aquaticus,271,YT-1,Bacteria,Deinococcus-Thermus,Deinococci,Thermales,Thermaceae,Thermus,GCA_001399775.1,68.0,2.3,L09663,63.0,40.0,70.0,,,79.0,39.0
 Thermus islandicus,540988,PRI3838,Bacteria,Deinococcus-Thermus,Deinococci,Thermales,Thermaceae,Thermus,,69.0,,EU753247,63.4,45.0,65.0,,,79.0,34.0
-"""Caldisphaera draconis""",411358,18U65,Archaea,Crenarchaeota,Thermoprotei,Acidilobales,Caldisphaeraceae,Caldisphaera,,53.9,,EF057392,61.7,60.0,71.0,70.0,72.0,79.0,19.0
+Caldisphaera draconis,411358,18U65,Archaea,Crenarchaeota,Thermoprotei,Acidilobales,Caldisphaeraceae,Caldisphaera,,53.9,,EF057392,61.7,60.0,71.0,70.0,72.0,79.0,19.0
 Kosmotoga pacifica,1330330,SLHLJ1,Bacteria,Thermotogae,Thermotogae,Kosmotogales,Kosmotogaceae,Kosmotoga,,43.7,,KC119212,60.3,33.0,70.0,,,78.0,45.0
 Thermosulfidibacter takaii,412593,ABI70S6,Bacteria,Aquificae,Aquificae,Aquificales,,Thermosulfidibacter,GCA_001547735.1,43.0,1.8,AB282756,62.1,55.0,70.0,,,78.0,23.0
 Thermolithobacter carboxydivorans,335383,R1,Bacteria,Firmicutes,Thermolithobacteria,Thermolithobacterales,Thermolithobacteraceae,Thermolithobacter,,52.0,,DQ095862,59.2,40.0,70.0,,,78.0,38.0
@@ -968,7 +967,7 @@ Streptomyces alkalithermotolerans,1464124,AC3,Bacteria,Actinobacteria,Actinobact
 Bacillus mojavensis,72360,Cohan RO-H-1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,,43.0,,AB021191,55.2,5.0,29.0,28.0,30.0,55.0,50.0
 Bacillus atrophaeus,1452,NRRL NRS-213 ,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,GCA_002243495.1,43.3,4.3,AB021181,55.4,5.0,29.0,28.0,30.0,55.0,50.0
 Bacillus subtilis,1423,ATCC 6051,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,,44.5,,AB042061,55.1,5.0,29.0,28.0,30.0,55.0,50.0
-Streptoalloteichus hindustanus,2017,ATCC 31217,Bacteria,Actinobacteria,Actinobacteria,Pseudonocardiales,Pseudonocardiaceae,Streptoalloteichus,"",,,D85497,59.5,20.0,45.0,,,54.0,34.0
+Streptoalloteichus hindustanus,2017,ATCC 31217,Bacteria,Actinobacteria,Actinobacteria,Pseudonocardiales,Pseudonocardiaceae,Streptoalloteichus,,,,D85497,59.5,20.0,45.0,,,54.0,34.0
 Natronolimnobius innermongolicus,253107,N-1311,Archaea,Euryarchaeota,Halobacteria,Natrialbales,Natrialbaceae,Natronolimnobius,,63.0,,AB125108,58.1,19.0,43.0,,,54.0,35.0
 Halorubrum xinjiangense,261291,BD-1,Archaea,Euryarchaeota,Halobacteria,Haloferacales,Halorubraceae,Halorubrum,,68.0,,AY510707,58.2,10.0,40.0,,,54.0,44.0
 Methanosarcina spelaei,1036679,MC-15,Archaea,Euryarchaeota,Methanomicrobia,Methanosarcinales,Methanosarcinaceae,Methanosarcina,,39.0,,JF812257,56.6,0.0,33.0,,,54.0,54.0
@@ -3457,7 +3456,7 @@ Streptococcus caviae,1930533,6,Bacteria,Firmicutes,Bacilli,Lactobacillales,Strep
 Halorubrum lacusprofundi,2247,ACAM34,Archaea,Euryarchaeota,Halobacteria,Haloferacales,Halorubraceae,Halorubrum,GCA_000022205.1,64.0,3.7,X82170,57.5,4.0,36.0,,,40.0,36.0
 Desulfonatronum zhilinae,1256678,Al915-01,Bacteria,Proteobacteria,Deltaproteobacteria,Desulfovibrionales,Desulfonatronaceae,Desulfonatronum,,,,JX984981,56.2,10.0,36.0,,,40.0,30.0
 Exiguobacterium sibiricum,332410,255-15,Bacteria,Firmicutes,Bacilli,Bacillales,,Exiguobacterium,GCA_000019905.1,47.7,3.0,NR_075006,55.5,-3.0,36.0,,,40.0,42.5
-Desulfotomaculum acetoxidans,58138,"""G6ttingen"", 5575",Bacteria,Firmicutes,Clostridia,Clostridiales,Peptococcaceae,Desulfofarcimen,,37.5,,NR_027608,52.9,20.0,36.0,,,40.0,20.0
+Desulfotomaculum acetoxidans,58138,G6ttingen, 5575,Bacteria,Firmicutes,Clostridia,Clostridiales,Peptococcaceae,Desulfofarcimen,,37.5,,NR_027608,52.9,20.0,36.0,,,40.0,20.0
 Methanohalophilus levihalophilus,1431282,GTA13,Archaea,Euryarchaeota,Methanomicrobia,Methanosarcinales,Methanosarcinaceae,Methanohalophilus,,43.7,,AB889605,55.1,20.0,35.0,,,40.0,20.0
 Methanobacterium petrolearium,710190,Mic5c12 ,Archaea,Euryarchaeota,Methanobacteria,Methanobacteriales,Methanobacteriaceae,Methanobacterium,,38.3,,AB542742,56.3,20.0,35.0,,,40.0,20.0
 Methanomicrobium antiquum,487686,MobH,Archaea,Euryarchaeota,Methanomicrobia,Methanomicrobiales,Methanomicrobiaceae,Methanomicrobium,,37.6,,AB370246,54.5,15.0,35.0,,,40.0,25.0
@@ -4766,7 +4765,7 @@ Arenicella chitinivorans,1329800,KMM 6208,Bacteria,Proteobacteria,Gammaproteobac
 Salipiger marinus,555512,CK-I3-6,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Salipiger,,67.5,,EU928765,56.1,4.0,26.5,25.0,28.0,38.0,34.0
 Zobellia russellii,248907,KMM 3677,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,Flavobacteriaceae,Zobellia,,38.6,,AB121976,54.3,4.0,26.5,25.0,28.0,38.0,34.0
 Flavobacterium subsaxonicum,426226,WB 4.1-42,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,,43.3,,AM934666,52.0,2.0,26.0,24.0,28.0,38.0,36.0
-Pseudomonas marginalis,298,"ATCC 10844,",Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,,60.0,,Z76663,53.9,0.0,25.5,25.0,26.0,38.0,38.0
+Pseudomonas marginalis,298,ATCC 10844,,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,,60.0,,Z76663,53.9,0.0,25.5,25.0,26.0,38.0,38.0
 Arenibacter palladensis,237373,KMM 3961,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,Flavobacteriaceae,Arenibacter,,40.0,,AJ575643,54.1,4.0,24.0,23.0,25.0,38.0,34.0
 Acidocella aromatica,1303579,PFBC,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,Acetobacteraceae,Acidocella,,62.8,,KC590088,54.4,15.0,30.0,,,37.5,22.5
 Marinifilum fragile,570161, JC2469,Bacteria,Bacteroidetes,Bacteroidia,Marinilabiliales,Marinifilaceae,Marinifilum,,45.0,,FJ394546,50.6,20.0,33.0,,,37.4,17.4
@@ -5578,7 +5577,7 @@ Streptomyces bryophytorum,1436133,NEAU-HZ10,Bacteria,Actinobacteria,Actinobacter
 Salinicola rhizosphaerae,1443141,MSSRFH1,Bacteria,Proteobacteria,Gammaproteobacteria,Oceanospirillales,Halomonadaceae,Salinicola,,64.0,,KF898345,57.2,25.0,28.0,,,37.0,12.0
 Xuhuaishuia manganoxidans,1411903,DY6-4,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Brevirhabdus,,66.6,,KF356416,55.1,4.0,28.0,,,37.0,33.0
 Celeribacter manganoxidans,1411902,DY2-5,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Celeribacter,GCA_002504165.1,64.8,4.0,KF356415,54.1,0.0,28.0,,,37.0,37.0
-Pseudomonas granadensis,1421430,"F-278,770",Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,,60.3,,HG764746,53.5,4.0,28.0,,,37.0,33.0
+Pseudomonas granadensis,1421430,F-278,770,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,,60.3,,HG764746,53.5,4.0,28.0,,,37.0,33.0
 Sulfitobacter pseudonitzschiae,1402135,H3,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Sulfitobacter,GCA_002222635.1,59.5,5.1,KF006321,54.6,10.0,28.0,,,37.0,27.0
 Rhizobium pakistanense,1401443,BN-19,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Rhizobium,,60.1,,AB854065,55.7,20.0,28.0,,,37.0,17.0
 Agromyces marinus,1389020,H23-8,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Microbacteriaceae,Agromyces,,72.5,,AB847104,57.2,10.0,28.0,,,37.0,27.0
@@ -7521,7 +7520,7 @@ Flavobacterium olei,1886782,R-10-9,Bacteria,Bacteroidetes,Flavobacteriia,Flavoba
 Bryocella elongata,863522,SN10,Bacteria,Acidobacteria,Acidobacteriia,Acidobacteriales,Acidobacteriaceae,Bryocella,,60.7,,FR666706,54.7,6.0,22.0,20.0,24.0,32.0,26.0
 Maribacter ulvicola,228959,KMM 3951,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,Flavobacteriaceae,Maribacter,,36.0,,AY271626,53.5,4.0,22.0,21.0,23.0,32.0,28.0
 Maribacter orientalis,228957,KMM 3947,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,Flavobacteriaceae,Maribacter,,39.0,,AY271624,53.9,4.0,22.0,21.0,23.0,32.0,28.0
-Polaribacter butkevichii,218490,"KMM 3,938",Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,Flavobacteriaceae,Polaribacter,,32.4,,AY189722,49.8,4.0,22.0,21.0,23.0,32.0,28.0
+Polaribacter butkevichii,218490,KMM 3,938,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,Flavobacteriaceae,Polaribacter,,32.4,,AY189722,49.8,4.0,22.0,21.0,23.0,32.0,28.0
 Pseudophaeobacter leonis,1144477,306,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Pseudophaeobacter,,58.8,,HE661585,53.6,4.0,19.5,17.0,22.0,32.0,28.0
 Sulfitobacter guttiformis,74349,EL-38,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Sulfitobacter,,55.7,,Y16427,53.7,4.0,16.0,12.0,20.0,32.0,28.0
 Streptomyces beijiangensis,163361,YIM6,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,,,,AF385681,58.7,0.0,14.0,8.0,20.0,32.0,32.0
