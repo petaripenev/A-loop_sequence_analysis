@@ -67,6 +67,15 @@ def connect_accessions_with_nucl(tree, align, nuclOne, nuclTwo, nameMapper, taxo
             node.delete()
     return accessionToNucl
 
+def remove_nodes_from_tree(truncatedTree, namesForTruncation):
+    removed_Nodes = list()
+    for node in truncatedTree.get_leaves():
+        if node.name not in namesForTruncation:
+            continue
+        removedNode = node.detach()
+        removed_Nodes.append(removedNode)
+    return truncatedTree, removed_Nodes
+
 def main(commandline_args):
     comm_args = create_and_parse_argument_options(commandline_args)
     tree = Tree(comm_args.treeFile, format=1)
@@ -86,9 +95,7 @@ def main(commandline_args):
         truncatedTree = tree   
 
     namesForTruncation = ['uncultured', 'Rice Cluster I', 'J07HB67', 'J07HR59', 'J07HX64']
-    for node in truncatedTree.get_leaves():
-        if node.name in namesForTruncation:
-            removedNode = node.detach()
+    truncatedTree, removed_Nodes = remove_nodes_from_tree(truncatedTree, namesForTruncation)
 
     toptMatchList, toptList, tempLabeledLeaves = list(), list(), list()
     with open(comm_args.tempuraFile) as tempuraFile:
@@ -149,6 +156,8 @@ def main(commandline_args):
             f.write(f'{node.name.replace("Candidatus ", "Cand. ")},{shape},{size},#000000,1,1\r\n')
 
     truncatedTree.write(format=1, outfile=f'./temperatureTrees/bridge_truncatedTree_{comm_args.taxonomyName}.nwk')
+
+
 
 
 if __name__ == "__main__":
