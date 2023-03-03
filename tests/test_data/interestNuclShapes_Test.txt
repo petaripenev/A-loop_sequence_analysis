@@ -1,0 +1,147 @@
+DATASET_SYMBOL
+SEPARATOR COMMA
+DATASET_LABEL,SILVA tree shapes
+COLOR,#ff0000
+LEGEND_TITLE,Nucleotide types,
+LEGEND_SHAPES,1,2,3,4,5,6,HH,HV,EL,DI,PL,PR,PU,PD
+LEGEND_COLORS,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000            
+LEGEND_LABELS,cg,ca,-g,cc,aa,c-,-u,ag,ua,u-,uu,-a,gg,XX
+DATA
+Aenigmarchaeota,1,15,#000000,1,1
+Altiarchaeia,1,15,#000000,1,1
+Asgardarchaeota,1,15,#000000,1,1
+Bathyarchaeia,1,15,#000000,1,1
+Cand. Methanomethylicus,1,15,#000000,1,1
+Cand. Caldiarchaeum,1,15,#000000,1,1
+Geothermarchaeaceae,1,15,#000000,1,1
+Cand. Nitrosocaldus,1,15,#000000,1,1
+Cand. Nitrosopelagicus,1,15,#000000,1,1
+Cand. Nitrosopumilus,1,15,#000000,1,1
+Cand. Nitrosotenuis,1,15,#000000,1,1
+Nitrosarchaeum,1,15,#000000,1,1
+Cand. Nitrosocosmicus,1,15,#000000,1,1
+Cand. Nitrososphaera,1,15,#000000,1,1
+Cand. Nitrosotalea,1,15,#000000,1,1
+Acidilobus,1,15,#000000,1,1
+Aeropyrum,1,15,#000000,1,1
+Caldisphaera,1,15,#000000,1,1
+Desulfurococcus,1,15,#000000,1,1
+Staphylothermus,1,15,#000000,1,1
+Thermogladius,1,15,#000000,1,1
+Thermosphaera,PR,15,#000000,1,1
+Ignicoccus,1,15,#000000,1,1
+Ignisphaera,1,15,#000000,1,1
+Hyperthermus,1,15,#000000,1,1
+Pyrodictium,1,15,#000000,1,1
+Fervidicoccus,1,15,#000000,1,1
+Geoarchaeales,2,15,#000000,1,1
+Acidianus,1,15,#000000,1,1
+Metallosphaera,1,15,#000000,1,1
+Stygiolobus,1,15,#000000,1,1
+Sulfolobus,1,15,#000000,1,1
+Sulfurisphaera,1,15,#000000,1,1
+Thermofilum,2,15,#000000,1,1
+Caldivirga,1,15,#000000,1,1
+Pyrobaculum,2,15,#000000,1,1
+Thermocladium,2,15,#000000,1,1
+Thermoproteus,2,15,#000000,1,1
+Vulcanisaeta,2,15,#000000,1,1
+Methanobacterium,1,15,#000000,1,1
+Methanobrevibacter,1,15,#000000,1,1
+Methanosphaera,1,15,#000000,1,1
+Methanothermus,1,15,#000000,1,1
+Methanothermobacter,1,15,#000000,1,1
+Methanocaldococcus,1,15,#000000,1,1
+Methanococcus,1,15,#000000,1,1
+Methanothermococcus,1,15,#000000,1,1
+Methanotorris,1,15,#000000,1,1
+Methanopyrus,1,15,#000000,1,1
+Cand. Methanofastidiosum,1,15,#000000,1,1
+Palaeococcus,1,15,#000000,1,1
+Pyrococcus,1,15,#000000,1,1
+Thermococcus,1,15,#000000,1,1
+Hadarchaeales,1,15,#000000,1,1
+Archaeoglobus,1,15,#000000,1,1
+Ferroglobus,1,15,#000000,1,1
+Geoglobus,1,15,#000000,1,1
+Haladaptatus,3,15,#000000,1,1
+Halanaeroarchaeum,1,15,#000000,1,1
+Halarchaeum,1,15,#000000,1,1
+Halobacterium,1,15,#000000,1,1
+Halodesulfurarchaeum,1,15,#000000,1,1
+Halalkalicoccus,1,15,#000000,1,1
+Halococcus,1,15,#000000,1,1
+Haloarchaeobius,1,15,#000000,1,1
+Halobaculum,1,15,#000000,1,1
+Halobellus,1,15,#000000,1,1
+Halobiforma,1,15,#000000,1,1
+Haloferax,1,15,#000000,1,1
+Halogeometricum,1,15,#000000,1,1
+Halogranum,1,15,#000000,1,1
+Halohasta,1,15,#000000,1,1
+Halolamina,1,15,#000000,1,1
+Halonotius,1,15,#000000,1,1
+Halopelagius,1,15,#000000,1,1
+Halopenitus,1,15,#000000,1,1
+Halopiger,1,15,#000000,1,1
+Haloplanus,1,15,#000000,1,1
+Haloquadratum,1,15,#000000,1,1
+Halorubrum,1,15,#000000,1,1
+Halostagnicola,1,15,#000000,1,1
+Haloterrigena,1,15,#000000,1,1
+Halovivax,1,15,#000000,1,1
+Natrialba,1,15,#000000,1,1
+Natrinema,1,15,#000000,1,1
+Natronobacterium,1,15,#000000,1,1
+Natronococcus,1,15,#000000,1,1
+Natronolimnobius,1,15,#000000,1,1
+Natronorubrum,1,15,#000000,1,1
+Salinarchaeum,1,15,#000000,1,1
+Salinigranum,1,15,#000000,1,1
+Cand. Halobonum,1,15,#000000,1,1
+Halapricum,1,15,#000000,1,1
+Haloarcula,3,15,#000000,1,1
+Halomicrobium,1,15,#000000,1,1
+Halorhabdus,1,15,#000000,1,1
+Halorientalis,3,15,#000000,1,1
+Halosimplex,1,15,#000000,1,1
+Natronomonas,1,15,#000000,1,1
+Methanocella,1,15,#000000,1,1
+Methanocorpusculum,1,15,#000000,1,1
+Methanoculleus,1,15,#000000,1,1
+Methanogenium,1,15,#000000,1,1
+Methanolacinia,1,15,#000000,1,1
+Methanoplanus,1,15,#000000,1,1
+Methanofollis,1,15,#000000,1,1
+Methanolinea,1,15,#000000,1,1
+Methanoregula,1,15,#000000,1,1
+Methanosphaerula,1,15,#000000,1,1
+Methanospirillum,1,15,#000000,1,1
+Methanosaeta,1,15,#000000,1,1
+Cand. Methanoperedens,1,15,#000000,1,1
+Methanococcoides,1,15,#000000,1,1
+Methanohalobium,1,15,#000000,1,1
+Methanohalophilus,1,15,#000000,1,1
+Methanolobus,1,15,#000000,1,1
+Methanomethylovorans,1,15,#000000,1,1
+Methanosalsum,1,15,#000000,1,1
+Methanosarcina,1,15,#000000,1,1
+Methermicoccus,1,15,#000000,1,1
+Cand. Syntrophoarchaeum,1,15,#000000,1,1
+Cand. Iainarchaeum,1,15,#000000,1,1
+Cand. Korarchaeum,2,15,#000000,1,1
+Cand. Micrarchaeum,1,15,#000000,1,1
+Cand. Nanopusillus,1,15,#000000,1,1
+Cand. Parvarchaeum,4,15,#000000,1,1
+Woesearchaeia,1,15,#000000,1,1
+Cand. Haloredivivus,1,15,#000000,1,1
+Marine Group II,1,15,#000000,1,1
+Methanomassiliicoccus,1,15,#000000,1,1
+Cand. Methanomethylophilus,1,15,#000000,1,1
+Cand. Methanoplasma,1,15,#000000,1,1
+Aciduliprofundum,1,15,#000000,1,1
+Acidiplasma,1,15,#000000,1,1
+Ferroplasma,1,15,#000000,1,1
+Picrophilus,1,15,#000000,1,1
+Cuniculiplasma,1,15,#000000,1,1
+Thermoplasma,1,15,#000000,1,1

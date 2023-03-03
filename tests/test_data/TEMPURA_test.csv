@@ -1,0 +1,6 @@
+genus_and_species,taxonomy_id,strain,superkingdom,phylum,class,order,family,genus,assembly_or_accession,Genome_GC,Genome_size,16S_accssion,16S_GC,Tmin,Topt_ave,Topt_low,Topt_high,Tmax,Tmax_Tmin
+Methanopyrus kandleri,2320,116,Archaea,Euryarchaeota,Methanopyri,Methanopyrales,Methanopyraceae,Methanopyrus,,,,AB301476,67.7,85.0,100.0,,,122.0,37.0
+Geogemma barossii,1927912,121,Archaea,Crenarchaeota,Thermoprotei,Desulfurococcales,Pyrodictiaceae,Geogemma,,,,,,85.0,106.0,,,121.0,36.0
+Pyrolobus fumarii,54252,1A,Archaea,Crenarchaeota,Thermoprotei,Desulfurococcales,Pyrodictiaceae,Pyrolobus,GCA_000223395.1,54.9,1.8,X99555,68.4,90.0,106.0,,,113.0,23.0
+Pyrococcus kukulkanii,1609559,NCB100,Archaea,Euryarchaeota,Thermococci,Thermococcales,Thermococcaceae,Pyrococcus,GCA_001577775.1,44.6,2.0,CP010835,66.5,70.0,105.0,,,112.0,42.0
+Pelagibacterium halotolerans,531813,B2,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Pelagibacterium,GCA_000230555.1,61.4,3.9,EU709017,54.5,10.0,30.0,,,42.0,32.0
