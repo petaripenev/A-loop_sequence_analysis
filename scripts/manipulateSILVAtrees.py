@@ -131,7 +131,7 @@ def generate_nucleotide_type_set(accessionToNucl):
     setOfNuclTypes.append('XX')
     return setOfNuclTypes
 
-def save_shape_annotations(shapes, setOfNuclTypes, accessionToNucl, taxonomyName, truncatedTree, outpath='./temperatureTrees/'):
+def save_shape_annotations(shapes, setOfNuclTypes, accessionToNucl, truncatedTree, outpath='./temperatureTrees/'):
     '''Takes a list of iTOL shapes, a set of nucleotide types, a dictionary with accessions as keys and a list of nucleotide sequences as values,
     a taxonomy name, a tree, and an output path.
     Saves a file with annotations for iTOL to color the tree by temperature optimum values.'''
@@ -140,7 +140,7 @@ def save_shape_annotations(shapes, setOfNuclTypes, accessionToNucl, taxonomyName
     stringOfNuclTypes = ','.join(nuclShapes)
     stringOfNuclColors = ','.join(['#000000' for x in range(1,len(setOfNuclTypes)+1)])
     multiMatches = [(k,v) for k,v in accessionToNucl.items() if len(v) > 1]
-    with open(f'{outpath}interestNuclShapes_{taxonomyName}.txt', 'w') as f:
+    with open(f'{outpath}interestNuclShapes.txt', 'w') as f:
         size = '15'
         f.write('DATASET_SYMBOL\r\nSEPARATOR COMMA\r\nDATASET_LABEL,SILVA tree shapes\r\nCOLOR,#ff0000\r\n')
         f.write(f'LEGEND_TITLE,Nucleotide types,\r\nLEGEND_SHAPES,{stringOfNuclTypes}\r\nLEGEND_COLORS,{stringOfNuclColors}\
@@ -189,8 +189,10 @@ def main(commandline_args):
     
     setOfNuclTypes = generate_nucleotide_type_set(accessionToNucl)
     shapes = ["1","2","3","4","5","6","HH","HV","EL","DI","PL","PR","PU","PD","OC","GP"]
-    truncatedTree = save_shape_annotations(shapes, setOfNuclTypes, accessionToNucl, comm_args.taxonomyName, truncatedTree)
-    truncatedTree.write(format=1, outfile=f'./temperatureTrees/bridge_truncatedTree_{comm_args.taxonomyName}.nwk')
+    output_prefix = f'{comm_args.taxonomyName}_{comm_args.alignmentFile.split("/")[-1].split(".")[0]}_{comm_args.nucleotideIndex[0]}_{comm_args.nucleotideIndex[1]}'
+    truncatedTree = save_shape_annotations(shapes, setOfNuclTypes, accessionToNucl, 
+        truncatedTree, outpath=f'./temperatureTrees/{output_prefix}_')
+    truncatedTree.write(format=1, outfile=f'./temperatureTrees/{output_prefix}_bridge_truncatedTree.nwk')
 
 if __name__ == "__main__":
     main(sys.argv[1:])

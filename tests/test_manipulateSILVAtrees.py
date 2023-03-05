@@ -123,7 +123,7 @@ class TestManipulateSILVAtrees(unittest.TestCase):
         shapes = ["1","2","3","4","5","6","HH","HV","EL","DI","PL","PR","PU","PD","OC","GP"]
 
         truncatedTree = save_shape_annotations(shapes, setOfNuclTypes, accessionToNucl, 
-            'Test', truncatedTree, outpath='tests/test_data/')
+             truncatedTree, outpath='tests/test_data/Test')
         with open(file='tests/test_data/interestNuclShapes_Test.txt', mode='r') as f:
             for i, line in enumerate(f):
                 if i == 0:
